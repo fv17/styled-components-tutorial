@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from './styledButton'
+import { Button, TomatoButton } from './styledButton'
 import { Title } from './styledTitle'
 import styled from 'styled-components'
 
@@ -9,6 +9,7 @@ function App() {
       <Title>Sample Title</Title>
       <Button>Normal button</Button>
       <Button primary>Primary button</Button>
+      <TomatoButton>Tomato Button</TomatoButton>
     </Container>
   );
 }

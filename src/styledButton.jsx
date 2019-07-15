@@ -15,3 +15,8 @@ export const Button = styled.button`
       color: white;
     `};
 `
+
+export const TomatoButton = styled(Button)`
+  color: tomato;
+  border-color: tomato;
+`
