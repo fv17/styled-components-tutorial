@@ -1,7 +1,8 @@
 import React from 'react';
+import styled from 'styled-components'
 import { Button, TomatoButton } from './styledButton'
 import { Title } from './styledTitle'
-import styled from 'styled-components'
+import { Input } from './styledInput';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Button>Normal button</Button>
       <Button primary>Primary button</Button>
       <TomatoButton>Tomato Button</TomatoButton>
+      <Button as="a" href="https://www.styled-components.com/docs/basics#extending-styles">Link with Button styles</Button>
+      <Input defaultValue="Please input!" type="text" inputColor="black" />
     </Container>
   );
 }
